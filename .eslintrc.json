@@ -1,9 +1,7 @@
 {
-    //"plugins": ["jest"],
     "env": {
         "browser": true,
         "es6": true
-        //"jest/globals": true
     },
     "extends": [
         "airbnb-base"
@@ -17,5 +15,6 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-undef":"off"
     }
 }
