@@ -3,9 +3,9 @@ for (let i = 0; i < 26; i += 1) {
   alphabetArray.push(String.fromCharCode(97 + i));
 }
 
-const isUpperCase = (chr) => chr === chr.toUpperCase();
+const isUpperCase = chr => chr === chr.toUpperCase();
 
-const isAlphabet = (chr) => chr.match(/[a-zA-Z]/);
+const isAlphabet = chr => chr.match(/[a-zA-Z]/);
 
 const encryptChar = (chr, offset) => {
   let index = alphabetArray.indexOf(chr.toLowerCase());
