@@ -11,7 +11,8 @@ const reverseString = (word) => {
         res += word[i];
     }
     return res;
-} 
+}
+
 export {
     capitalize, reverseString
 };

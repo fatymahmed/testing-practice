@@ -1,4 +1,4 @@
-import {capitalize, reverseString } from './methods';
+import {capitalize, reverseString } from './stringMethods';
 
 test('capitalizes first letter of the string', () =>{
 	expect(capitalize('november')).toEqual('November');
