@@ -2,7 +2,7 @@
     "plugins": ["jest"],
     "env": {
         "browser": true,
-        "es6": true,
+        "es8": true,
         "jest/globals": true
     },
     "extends": [
